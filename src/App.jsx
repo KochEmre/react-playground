@@ -1,10 +1,15 @@
-function App() {
+import React from 'react';
+import PizzaList from './components/PizzaList';
 
+function App() {
   return (
-    <div>
-      <h1>Hello Emre!</h1>
+    <div className="App">
+      <header className="App-header">
+        <h1>Welcome to Pizza Place</h1>
+      </header>
+      <PizzaList />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
